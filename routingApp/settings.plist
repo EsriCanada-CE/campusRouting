@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>restriction</key>
+	<string>PreferIndoor</string>
+	<key>username</key>
+	<string>user</string>
+	<key>password</key>
+	<string>password</string>
+	<key>clientId</key>
+	<string>YYYYYYYYYYYYYYYY</string>
+	<key>delimiter</key>
+	<string> - </string>
+	<key>accessible</key>
+	<false/>
+	<key>stackLayer</key>
+	<string>NA</string>
+	<key>indoorPlans</key>
+	<string>imageServiceLayer</string>
+	<key>host</key>
+	<string>arcgis.com</string>
+	<key>mapService</key>
+	<string>http://arcgis.com/arcgis/rest/services/uwroute/naservice/MapServer</string>
+	<key>planService</key>
+	<string>http://arcgis.com/arcgis/rest/services/uwroute/plans/ImageServer</string>
+	<key>networkService</key>
+	<string>http://arcgis.com/arcgis/rest/services/uwroute/naservice/NAServer/Route</string>
+	<key>topo</key>
+	<string>https://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer</string>
+	<key>satellite</key>
+	<string>http://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer</string>
+	<key>roomServiceLayer</key>
+	<string>0</string>
+	<key>buildingServiceLayer</key>
+	<string>8</string>
+</dict>
+</plist>

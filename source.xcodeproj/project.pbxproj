@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848747D21A826CA500153033 /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 848747D11A826CA500153033 /* settings.plist */; };
+		84BA42021A81735E00DB6A7C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BA41F31A81735E00DB6A7C /* Default-568h@2x.png */; };
+		84BA42031A81735E00DB6A7C /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BA41F41A81735E00DB6A7C /* Default-Landscape@2x~ipad.png */; };
+		84BA42041A81735E00DB6A7C /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BA41F51A81735E00DB6A7C /* Default-Landscape~ipad.png */; };
+		84BA42051A81735E00DB6A7C /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BA41F61A81735E00DB6A7C /* Default-Portrait~ipad.png */; };
+		84BA42061A81735E00DB6A7C /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BA41F71A81735E00DB6A7C /* default.png */; };
+		84BA42071A81735E00DB6A7C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BA41F81A81735E00DB6A7C /* Default@2x.png */; };
+		84BA42081A81735E00DB6A7C /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BA41F91A81735E00DB6A7C /* Default~ipad.png */; };
+		84BA42091A81735E00DB6A7C /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BA41FA1A81735E00DB6A7C /* Default~iphone.png */; };
+		84BA420A1A81735E00DB6A7C /* destination.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BA41FB1A81735E00DB6A7C /* destination.png */; };
+		84BA420B1A81735E00DB6A7C /* ios7.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BA41FC1A81735E00DB6A7C /* ios7.png */; };
+		84BA420C1A81735E00DB6A7C /* ios7retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BA41FD1A81735E00DB6A7C /* ios7retina.png */; };
+		84BA420D1A81735E00DB6A7C /* landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BA41FE1A81735E00DB6A7C /* landscape.png */; };
+		84BA420E1A81735E00DB6A7C /* landscaperetina.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BA41FF1A81735E00DB6A7C /* landscaperetina.png */; };
+		84BA420F1A81735E00DB6A7C /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BA42001A81735E00DB6A7C /* start.png */; };
+		84BA42261A81736300DB6A7C /* ActivityAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA42111A81736300DB6A7C /* ActivityAlertView.m */; };
+		84BA42271A81736300DB6A7C /* BookStackLOCRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA42131A81736300DB6A7C /* BookStackLOCRange.m */; };
+		84BA42281A81736300DB6A7C /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA42151A81736300DB6A7C /* Level.m */; };
+		84BA42291A81736300DB6A7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA42161A81736300DB6A7C /* main.m */; };
+		84BA422A1A81736300DB6A7C /* mapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA42181A81736300DB6A7C /* mapAppDelegate.m */; };
+		84BA422B1A81736300DB6A7C /* mapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA421A1A81736300DB6A7C /* mapViewController.m */; };
+		84BA422C1A81736300DB6A7C /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA421C1A81736300DB6A7C /* Room.m */; };
+		84BA422D1A81736300DB6A7C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA421E1A81736300DB6A7C /* Reachability.m */; };
+		84BA422E1A81736300DB6A7C /* rootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA42201A81736300DB6A7C /* rootViewController.m */; };
+		84BA422F1A81736300DB6A7C /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA42221A81736300DB6A7C /* Route.m */; };
+		84BA42301A81736300DB6A7C /* Site.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA42241A81736300DB6A7C /* Site.m */; };
+		84BA425A1A8179AB00DB6A7C /* mapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BA42581A8179AB00DB6A7C /* mapViewController.xib */; };
+		84BA425B1A8179AB00DB6A7C /* mapViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BA42591A8179AB00DB6A7C /* mapViewController~ipad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		848747D11A826CA500153033 /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = settings.plist; path = routingApp/settings.plist; sourceTree = "<group>"; };
+		84BA41CC1A81732200DB6A7C /* routingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = routingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BA41D01A81732200DB6A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BA41F31A81735E00DB6A7C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		84BA41F41A81735E00DB6A7C /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		84BA41F51A81735E00DB6A7C /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		84BA41F61A81735E00DB6A7C /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		84BA41F71A81735E00DB6A7C /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		84BA41F81A81735E00DB6A7C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		84BA41F91A81735E00DB6A7C /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
+		84BA41FA1A81735E00DB6A7C /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		84BA41FB1A81735E00DB6A7C /* destination.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = destination.png; sourceTree = "<group>"; };
+		84BA41FC1A81735E00DB6A7C /* ios7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios7.png; sourceTree = "<group>"; };
+		84BA41FD1A81735E00DB6A7C /* ios7retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios7retina.png; sourceTree = "<group>"; };
+		84BA41FE1A81735E00DB6A7C /* landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscape.png; sourceTree = "<group>"; };
+		84BA41FF1A81735E00DB6A7C /* landscaperetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscaperetina.png; sourceTree = "<group>"; };
+		84BA42001A81735E00DB6A7C /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		84BA42101A81736300DB6A7C /* ActivityAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActivityAlertView.h; path = source/ActivityAlertView.h; sourceTree = "<group>"; };
+		84BA42111A81736300DB6A7C /* ActivityAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActivityAlertView.m; path = source/ActivityAlertView.m; sourceTree = "<group>"; };
+		84BA42121A81736300DB6A7C /* BookStackLOCRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookStackLOCRange.h; path = source/BookStackLOCRange.h; sourceTree = "<group>"; };
+		84BA42131A81736300DB6A7C /* BookStackLOCRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookStackLOCRange.m; path = source/BookStackLOCRange.m; sourceTree = "<group>"; };
+		84BA42141A81736300DB6A7C /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Level.h; path = source/Level.h; sourceTree = "<group>"; };
+		84BA42151A81736300DB6A7C /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Level.m; path = source/Level.m; sourceTree = "<group>"; };
+		84BA42161A81736300DB6A7C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = source/main.m; sourceTree = "<group>"; };
+		84BA42171A81736300DB6A7C /* mapAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mapAppDelegate.h; path = source/mapAppDelegate.h; sourceTree = "<group>"; };
+		84BA42181A81736300DB6A7C /* mapAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mapAppDelegate.m; path = source/mapAppDelegate.m; sourceTree = "<group>"; };
+		84BA42191A81736300DB6A7C /* mapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mapViewController.h; path = source/mapViewController.h; sourceTree = "<group>"; };
+		84BA421A1A81736300DB6A7C /* mapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mapViewController.m; path = source/mapViewController.m; sourceTree = "<group>"; };
+		84BA421B1A81736300DB6A7C /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Room.h; path = source/Room.h; sourceTree = "<group>"; };
+		84BA421C1A81736300DB6A7C /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Room.m; path = source/Room.m; sourceTree = "<group>"; };
+		84BA421D1A81736300DB6A7C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = source/Reachability.h; sourceTree = "<group>"; };
+		84BA421E1A81736300DB6A7C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = source/Reachability.m; sourceTree = "<group>"; };
+		84BA421F1A81736300DB6A7C /* rootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rootViewController.h; path = source/rootViewController.h; sourceTree = "<group>"; };
+		84BA42201A81736300DB6A7C /* rootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = rootViewController.m; path = source/rootViewController.m; sourceTree = "<group>"; };
+		84BA42211A81736300DB6A7C /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Route.h; path = source/Route.h; sourceTree = "<group>"; };
+		84BA42221A81736300DB6A7C /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Route.m; path = source/Route.m; sourceTree = "<group>"; };
+		84BA42231A81736300DB6A7C /* Site.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Site.h; path = source/Site.h; sourceTree = "<group>"; };
+		84BA42241A81736300DB6A7C /* Site.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Site.m; path = source/Site.m; sourceTree = "<group>"; };
+		84BA42581A8179AB00DB6A7C /* mapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mapViewController.xib; sourceTree = "<group>"; };
+		84BA42591A8179AB00DB6A7C /* mapViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "mapViewController~ipad.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84BA41C91A81732200DB6A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84BA41C11A81721600DB6A7C = {
+			isa = PBXGroup;
+			children = (
+				848747D11A826CA500153033 /* settings.plist */,
+				84BA42251A81736300DB6A7C /* Source */,
+				84BA42011A81735E00DB6A7C /* Assets */,
+				84BA41CE1A81732200DB6A7C /* routingApp */,
+				84BA41CD1A81732200DB6A7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84BA41CD1A81732200DB6A7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84BA41CC1A81732200DB6A7C /* routingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84BA41CE1A81732200DB6A7C /* routingApp */ = {
+			isa = PBXGroup;
+			children = (
+				84BA41CF1A81732200DB6A7C /* Supporting Files */,
+			);
+			path = routingApp;
+			sourceTree = "<group>";
+		};
+		84BA41CF1A81732200DB6A7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84BA42581A8179AB00DB6A7C /* mapViewController.xib */,
+				84BA42591A8179AB00DB6A7C /* mapViewController~ipad.xib */,
+				84BA41D01A81732200DB6A7C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84BA42011A81735E00DB6A7C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				84BA41F31A81735E00DB6A7C /* Default-568h@2x.png */,
+				84BA41F41A81735E00DB6A7C /* Default-Landscape@2x~ipad.png */,
+				84BA41F51A81735E00DB6A7C /* Default-Landscape~ipad.png */,
+				84BA41F61A81735E00DB6A7C /* Default-Portrait~ipad.png */,
+				84BA41F71A81735E00DB6A7C /* default.png */,
+				84BA41F81A81735E00DB6A7C /* Default@2x.png */,
+				84BA41F91A81735E00DB6A7C /* Default~ipad.png */,
+				84BA41FA1A81735E00DB6A7C /* Default~iphone.png */,
+				84BA41FB1A81735E00DB6A7C /* destination.png */,
+				84BA41FC1A81735E00DB6A7C /* ios7.png */,
+				84BA41FD1A81735E00DB6A7C /* ios7retina.png */,
+				84BA41FE1A81735E00DB6A7C /* landscape.png */,
+				84BA41FF1A81735E00DB6A7C /* landscaperetina.png */,
+				84BA42001A81735E00DB6A7C /* start.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		84BA42251A81736300DB6A7C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				84BA42101A81736300DB6A7C /* ActivityAlertView.h */,
+				84BA42111A81736300DB6A7C /* ActivityAlertView.m */,
+				84BA42121A81736300DB6A7C /* BookStackLOCRange.h */,
+				84BA42131A81736300DB6A7C /* BookStackLOCRange.m */,
+				84BA42141A81736300DB6A7C /* Level.h */,
+				84BA42151A81736300DB6A7C /* Level.m */,
+				84BA42161A81736300DB6A7C /* main.m */,
+				84BA42171A81736300DB6A7C /* mapAppDelegate.h */,
+				84BA42181A81736300DB6A7C /* mapAppDelegate.m */,
+				84BA42191A81736300DB6A7C /* mapViewController.h */,
+				84BA421A1A81736300DB6A7C /* mapViewController.m */,
+				84BA421B1A81736300DB6A7C /* Room.h */,
+				84BA421C1A81736300DB6A7C /* Room.m */,
+				84BA421D1A81736300DB6A7C /* Reachability.h */,
+				84BA421E1A81736300DB6A7C /* Reachability.m */,
+				84BA42201A81736300DB6A7C /* rootViewController.m */,
+				84BA421F1A81736300DB6A7C /* rootViewController.h */,
+				84BA42211A81736300DB6A7C /* Route.h */,
+				84BA42221A81736300DB6A7C /* Route.m */,
+				84BA42231A81736300DB6A7C /* Site.h */,
+				84BA42241A81736300DB6A7C /* Site.m */,
+			);
+			name = Source;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84BA41CB1A81732200DB6A7C /* routingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BA41ED1A81732200DB6A7C /* Build configuration list for PBXNativeTarget "routingApp" */;
+			buildPhases = (
+				84BA41C81A81732200DB6A7C /* Sources */,
+				84BA41C91A81732200DB6A7C /* Frameworks */,
+				84BA41CA1A81732200DB6A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = routingApp;
+			productName = routingApp;
+			productReference = 84BA41CC1A81732200DB6A7C /* routingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84BA41C21A81721600DB6A7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					84BA41CB1A81732200DB6A7C = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = BF7D729BA6;
+					};
+				};
+			};
+			buildConfigurationList = 84BA41C51A81721600DB6A7C /* Build configuration list for PBXProject "source" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84BA41C11A81721600DB6A7C;
+			productRefGroup = 84BA41CD1A81732200DB6A7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84BA41CB1A81732200DB6A7C /* routingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84BA41CA1A81732200DB6A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BA42021A81735E00DB6A7C /* Default-568h@2x.png in Resources */,
+				84BA420C1A81735E00DB6A7C /* ios7retina.png in Resources */,
+				84BA425B1A8179AB00DB6A7C /* mapViewController~ipad.xib in Resources */,
+				84BA420A1A81735E00DB6A7C /* destination.png in Resources */,
+				848747D21A826CA500153033 /* settings.plist in Resources */,
+				84BA42051A81735E00DB6A7C /* Default-Portrait~ipad.png in Resources */,
+				84BA42041A81735E00DB6A7C /* Default-Landscape~ipad.png in Resources */,
+				84BA420D1A81735E00DB6A7C /* landscape.png in Resources */,
+				84BA420F1A81735E00DB6A7C /* start.png in Resources */,
+				84BA42081A81735E00DB6A7C /* Default~ipad.png in Resources */,
+				84BA42031A81735E00DB6A7C /* Default-Landscape@2x~ipad.png in Resources */,
+				84BA42071A81735E00DB6A7C /* Default@2x.png in Resources */,
+				84BA420E1A81735E00DB6A7C /* landscaperetina.png in Resources */,
+				84BA42061A81735E00DB6A7C /* default.png in Resources */,
+				84BA425A1A8179AB00DB6A7C /* mapViewController.xib in Resources */,
+				84BA42091A81735E00DB6A7C /* Default~iphone.png in Resources */,
+				84BA420B1A81735E00DB6A7C /* ios7.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84BA41C81A81732200DB6A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BA422C1A81736300DB6A7C /* Room.m in Sources */,
+				84BA42271A81736300DB6A7C /* BookStackLOCRange.m in Sources */,
+				84BA422F1A81736300DB6A7C /* Route.m in Sources */,
+				84BA422B1A81736300DB6A7C /* mapViewController.m in Sources */,
+				84BA422E1A81736300DB6A7C /* rootViewController.m in Sources */,
+				84BA42301A81736300DB6A7C /* Site.m in Sources */,
+				84BA42261A81736300DB6A7C /* ActivityAlertView.m in Sources */,
+				84BA422A1A81736300DB6A7C /* mapAppDelegate.m in Sources */,
+				84BA422D1A81736300DB6A7C /* Reachability.m in Sources */,
+				84BA42291A81736300DB6A7C /* main.m in Sources */,
+				84BA42281A81736300DB6A7C /* Level.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84BA41C61A81721600DB6A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		84BA41C71A81721600DB6A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		84BA41EE1A81732200DB6A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "App-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = routingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4f60d3cd-c9d3-47a5-b222-06158dcdc44f";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		84BA41EF1A81732200DB6A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ESRI Canada Ltd (BF7D729BA6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ESRI Canada Ltd (BF7D729BA6)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "App-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = routingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "61a5d082-775b-4e46-a428-fbfecbff3b1c";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84BA41C51A81721600DB6A7C /* Build configuration list for PBXProject "source" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BA41C61A81721600DB6A7C /* Debug */,
+				84BA41C71A81721600DB6A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BA41ED1A81732200DB6A7C /* Build configuration list for PBXNativeTarget "routingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BA41EE1A81732200DB6A7C /* Debug */,
+				84BA41EF1A81732200DB6A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84BA41C21A81721600DB6A7C /* Project object */;
+}
